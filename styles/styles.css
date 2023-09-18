@@ -240,9 +240,8 @@ section {
   font-size: 2rem;
 }
 .about-container .right-about .right-about-content {
-  display: flexbox;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .about-container .right-about .right-about-content h6 {
   text-transform: uppercase;
@@ -250,6 +249,30 @@ section {
   font-size: 1.5rem;
 }
 .about-container .right-about .right-about-content h6 span {
+  color: var(--color-secondary);
+}
+.about-container .right-about .right-about-content h7 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.about-container .right-about .right-about-content h7 span {
+  color: var(--color-secondary);
+}
+.about-container .right-about .right-about-content h8 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.about-container .right-about .right-about-content h8 span {
+  color: var(--color-secondary);
+}
+.about-container .right-about .right-about-content h9 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.about-container .right-about .right-about-content h9 span {
   color: var(--color-secondary);
 }
 .about-container .right-about .right-about-content .t-text {
@@ -587,8 +610,17 @@ section {
   .about-container .right-about h5 {
     font-size: 1.75rem;
   }
+  .about-container .right-about .right-about-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .about-container .right-about .right-about-content h6 {
     text-align: center;
+  }
+  .about-container .right-about .right-about-content .heading2 {
+    grid-row: 3;
+  }
+  .about-container .right-about .right-about-content .heading4 {
+    grid-row: 7;
   }
   .about-container .right-about .right-about-content .t-text {
     text-align: center;

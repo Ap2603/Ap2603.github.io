@@ -249,10 +249,33 @@ section{
         font-size: 2rem;
         }
         .right-about-content{
-            display: flexbox;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
         h6{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 1.5rem;
+            span{
+                color: var(--color-secondary);
+            }
+        }
+        h7{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 1.5rem;
+            span{
+                color: var(--color-secondary);
+            }
+        }
+        h8{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 1.5rem;
+            span{
+                color: var(--color-secondary);
+            }
+        }
+        h9{
             text-transform: uppercase;
             text-align: left;
             font-size: 1.5rem;
@@ -263,7 +286,7 @@ section{
         .t-text{
             margin-bottom: 5%;
         }
-       }
+        }
     }
     .left-about{
         text-align: left;
