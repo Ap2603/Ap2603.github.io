@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -52,7 +54,7 @@ a{
 }
 
 header{
-    height: 100vh;
+    min-height: 100vh;
     color: var(--color-white);
     overflow: hidden;
 }
@@ -63,7 +65,10 @@ section{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .section{
@@ -287,7 +292,7 @@ section{
         position: relative;
         img{
             width: 100%;
-            height:300px;
+            aspect-ratio: 2/1;
             object-fit: cover;
             border-radius: 15px;
         }
@@ -506,3 +511,5 @@ section{
 
     }
 }
+
+@import './media';
