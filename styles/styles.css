@@ -120,7 +120,6 @@ section {
 }
 .controls .active-btn {
   background-color: var(--color-secondary) !important;
-  transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
   color: var(--color-white) !important;
@@ -240,16 +239,21 @@ section {
   text-align: center;
   font-size: 2rem;
 }
-.about-container .right-about .icons {
+.about-container .right-about .right-about-content {
   display: flexbox;
   flex-direction: row;
   flex-wrap: nowrap;
-  text-align: center;
-  justify-content: center;
 }
-.about-container .right-about .icons i {
-  font-size: 4rem;
-  margin: 3rem;
+.about-container .right-about .right-about-content h6 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.about-container .right-about .right-about-content h6 span {
+  color: var(--color-secondary);
+}
+.about-container .right-about .right-about-content .t-text {
+  margin-bottom: 5%;
 }
 .about-container .left-about {
   text-align: left;
@@ -582,6 +586,12 @@ section {
   }
   .about-container .right-about h5 {
     font-size: 1.75rem;
+  }
+  .about-container .right-about .right-about-content h6 {
+    text-align: center;
+  }
+  .about-container .right-about .right-about-content .t-text {
+    text-align: center;
   }
   .p-text {
     margin-top: 1rem;

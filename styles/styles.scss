@@ -128,7 +128,7 @@ section{
     transform: translateY(-50%);
     .active-btn{
         background-color: var(--color-secondary) !important;
-        transition: all .4s ease-in-out;
+        //transition: all .4s ease-in-out;
         i{
             color: var(--color-white) !important;
         }
@@ -248,18 +248,22 @@ section{
         text-align: center;
         font-size: 2rem;
         }
-        .icons{
-        display: flexbox;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        text-align: center;
-        justify-content: center;
-        i{
-        font-size: 4rem;
-        margin: 3rem;
+        .right-about-content{
+            display: flexbox;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        h6{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 1.5rem;
+            span{
+                color: var(--color-secondary);
+            }
         }
-            
+        .t-text{
+            margin-bottom: 5%;
         }
+       }
     }
     .left-about{
         text-align: left;
