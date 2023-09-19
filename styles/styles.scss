@@ -259,30 +259,6 @@ section{
                 color: var(--color-secondary);
             }
         }
-        h7{
-            text-transform: uppercase;
-            text-align: left;
-            font-size: 1.5rem;
-            span{
-                color: var(--color-secondary);
-            }
-        }
-        h8{
-            text-transform: uppercase;
-            text-align: left;
-            font-size: 1.5rem;
-            span{
-                color: var(--color-secondary);
-            }
-        }
-        h9{
-            text-transform: uppercase;
-            text-align: left;
-            font-size: 1.5rem;
-            span{
-                color: var(--color-secondary);
-            }
-        }
         .t-text{
             margin-bottom: 5%;
         }
@@ -322,6 +298,7 @@ section{
             aspect-ratio: 2/1;
             object-fit: cover;
             border-radius: 15px;
+            border: 5px solid #000;
         }
         .hover-items{
             width: 100%;
